@@ -1,9 +1,9 @@
-# design-and-programming-of-digital-and-along-sensor
+# design-and-programming-of-digital-and-analog-sensor
 
 This repository showcases the design, simulation, and implementation of two types of Arduino sensor systems:
 
-- ✅ Digital Sensor – simulated using Tinkercad
-- ✅ Analog Sensor – simulated in Tinkercad and implemented on real hardware
+- ✅ Digital Sensor – simulated using Tinkercad only  
+- ✅ Analog Sensor – simulated in Tinkercad **and** implemented on real hardware  
 
 ---
 
@@ -20,10 +20,11 @@ This repository showcases the design, simulation, and implementation of two type
 
 - **Input:** Pushbutton (Digital)
 - **Output:** LED (ON/OFF)
-- **Tested using:** Tinkercad only
+- **Tested using:** Tinkercad simulation only  
+- **Code file:** `digital.ino`  
 - **Serial Monitor:** Displays `1` (pressed) or `0` (not pressed)
 
-### 🎥 Video:
+🎥 **Simulation Video:**  
 - `digital_sensor_simulation_video.mov`
 
 ---
@@ -31,23 +32,46 @@ This repository showcases the design, simulation, and implementation of two type
 ## 🎚️ Analog Sensor
 
 - **Input:** Potentiometer (Analog)
-- **Output:** LED with variable brightness
-- **Tested using:** Tinkercad & physical circuit
-- **Serial Monitor:** Displays values from `0` to `1023` based on potentiometer rotation
+- **Output:** LED with variable blinking based on analog input
+- **Tested using:**  
+  - ✅ Tinkercad (`analog_tinkercad.ino`)  
+  - ✅ Real Arduino hardware (`analog.ino`)  
+- **Serial Monitor:** Displays analog values from `0` to `1023` depending on potentiometer position
 
-### 🎥 Videos:
-- `analog_sensor_simulation_video.mov`
-- `analog_sensor_realworld_video.mov`
+🎥 **Videos:**
+- Simulation: `analog_sensor_simulation_video.mov`
+- Real Hardware: `analog_sensor_realworld_video.mov`
 
 ---
 
-## 🧪 Testing
+## 🧪 Serial Monitor Output
 
 Both sensors were tested using the **Serial Monitor**:
-- For digital: `1` (pressed) and `0` (released)
-- For analog: live analog values between `0–1023`
+
+- **Digital Sensor:**  
+  Outputs `1` when the button is pressed, and `0` when released.
+
+- **Analog Sensor:**  
+  Continuously outputs analog values between `0`–`1023`.
 
 ---
+
+## 📁 File List
+
+| File                              | Description                                      |
+|-----------------------------------|--------------------------------------------------|
+| `digital.ino`                     | Code for digital sensor (Tinkercad simulation)   |
+| `analog_tinkercad.ino`            | Analog sensor simulation code (Tinkercad)        |
+| `analog.ino`                      | Code for real-world analog sensor                |
+| `digital_sensor_simulation_video.mov`   | Video of digital sensor simulation              |
+| `analog_sensor_simulation_video.mov`   | Video of analog sensor in Tinkercad             |
+| `analog_sensor_realworld_video.mov`    | Video of analog sensor on real hardware         |
+
+---
+
+## 🗓️ Date
+
+August 2025
 
 ## 📁 Files
 
