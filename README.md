@@ -24,7 +24,7 @@ This repository showcases the design, simulation, and implementation of two type
 - **Serial Monitor:** Displays `1` (pressed) or `0` (not pressed)
 
 ### 🎥 Video:
-- `digital_sensor_simulation_video.mp4`
+- `digital_sensor_simulation_video.mov`
 
 ---
 
@@ -36,8 +36,8 @@ This repository showcases the design, simulation, and implementation of two type
 - **Serial Monitor:** Displays values from `0` to `1023` based on potentiometer rotation
 
 ### 🎥 Videos:
-- `analog_sensor_simulation_video.mp4`
-- `analog_sensor_realworld_video.mp4`
+- `analog_sensor_simulation_video.mov`
+- `analog_sensor_realworld_video.mov`
 
 ---
 
